@@ -1,0 +1,26 @@
+{
+
+  "migration_id": 2016081323294313,
+
+  "models": {
+
+    "TeamMember": {
+
+      "table": "team_members",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "active", "type": "boolean", "properties": {}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "picture", "type": "string", "properties": {}},
+        {"name": "wiki", "type": "string", "properties": {}},
+        {"name": "web", "type": "string", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}
